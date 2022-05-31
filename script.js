@@ -1,14 +1,3 @@
-let url = 'http://localhost:3001/car'
-
-let arr = []
-axios.get(url)
-    .then(res => {
-        for(let item of res.data) {
-            arr.push(item) 
-        }
-    })
-    .catch(err => console.log(err))
-
 let speedtop = document.querySelector('.speedtop') 
 let speedbot = document.querySelector('.speedbot') 
 let temptop = document.querySelector('.temptop') 

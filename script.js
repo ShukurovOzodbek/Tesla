@@ -83,8 +83,8 @@ function diskB() {
         }
     }
 }
-let kond = document.querySelector('.kond')
-let version = document.querySelector('.version')
+let kond = document.querySelector('.konditsioner')
+let version = document.querySelector('.ver')
 let view = document.querySelector('.view')
 cond()
 function cond() {
@@ -152,8 +152,8 @@ cir3.onclick = () => {
     price2.innerHTML = '57000'
 }
 
-let tesla = document.querySelector('.tesla')
-let cont = document.querySelector('.container_2')
+let tesla = document.querySelector('.ts')
+let cont = document.querySelector('.cont_2')
 
 tesla.onclick = () => {
     cont.classList.add('active')

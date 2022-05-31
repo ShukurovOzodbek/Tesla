@@ -15,6 +15,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin-top: 45px;
 }
 .top {
     display: flex;
@@ -25,6 +26,7 @@
     display: flex;
     gap: 50px;
     margin-bottom: 60px;
+    margin-right: 50px;
 }
 p {
     font-size: 20px;
@@ -77,16 +79,16 @@ input:checked[type="checkbox"]::before{
 .wh {
     position: absolute;
     top: 332px;
-    left: 453px;
+    left: 474px;
     width: 130px;
-    animation: speed .1s ease 7ms infinite ;
+    animation: speed .1s ease 7ms infinite;
 }
 .wh2 {
     position: absolute;
     top: 333px;
-    left: 932px;
+    left: 957px;
     width: 120px;
-    animation: speed .1s ease 7ms infinite ;
+    animation: speed .1s ease 7ms infinite;
 }
 @keyframes speed {
 	0% {
@@ -151,9 +153,10 @@ b{
     display: flex;
     gap: 10px;
 }
-#tesla{
+#tesla {
     width: 90%;
     height: 700px;
+    margin-left: 118px;
 }
 .container_2{
     margin-left: 70px;
